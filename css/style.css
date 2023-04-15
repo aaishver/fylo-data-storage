@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 14px;
+    font-weight: 100;
+}
+span{
+    font-weight: bold;
+}
+body{
+    height: 100vh;
+    position: absolute;
+    color: hsl(243, 100%, 93%);
+    background-color: hsl(229, 57%, 11%);
+    font-family: 'Raleway', sans-serif;
+}
+main{
+    margin-top: 14%;
+    margin-left: 25%;
+    position: absolute;
+    gap: 20px;
+    display: flex;
+}
+
+.bg{
+    margin-top: 300px;
+    width: 1530px;
+    height: initial;
+
+}
+
+
+
+
+/* ----------- box1 css ---------- */
+.box1{
+    border-radius: 5px 70px 5px 5px;
+    padding: 25px 100px 0px 20px;
+    background-color:hsl(228, 56%, 26%);
+}
+.trio{
+    display: flex;
+    margin: 25px 0;
+    justify-content: space-between;
+    text-align: center;
+}
+.iscon{
+    background-color:  hsl(229, 57%, 11%);
+    border-radius: 6px;
+    width: 35px;
+    height: 35px;
+}
+.doc{
+    margin: 5px 0;
+}
+.fold{
+    text-align: end;
+    margin: 6px 0;
+}
+.load{
+    vertical-align: -webkit-baseline-middle;
+}
+
+
+
+/* ------------ box2 css ----------- */
+.box2{
+    width: 400px;
+    margin-top: 50px;
+    height: 110px;
+    border-radius: 5px;
+    padding: 25px;
+    background-color:hsl(228, 56%, 26%);
+}
+.material{
+    position: relative;
+    bottom: 4rem;
+}
+.storage-usage{
+    margin: 8px 0;
+}
+.range-of-bar{
+    margin: 6px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* ---------- bar css section ---------- */
+.barball-main{
+    height: 15px;
+    border-radius: 6px;
+    background-color: hsl(229, 57%, 11%);
+}
+.bar{
+    position: absolute;
+    background-image: -webkit-linear-gradient(left, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    background-image: -moz-linear-gradient(left, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    background-image: -ms-linear-gradient(left, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    background-image: -o-linear-gradient(left, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    background-image: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    margin: 3px;
+    width: 80%;
+    border-radius: 4px;
+    height: 9px;
+    background-color: aliceblue;
+}
+.bar-ball{
+    background-color: white;
+    height: 8px;
+    position: relative;
+    left: 97%;
+    border-radius: 50%;
+    width: 7px;
+}
+
+
+/* ---------- remaining data comment box ---------- */
+.remaining-data{
+    border-radius: 8px;
+    place-content: center;
+    top: -60px;
+    left: 230px;
+    position: relative;
+    padding: 10px;
+    width: max-content;
+    background-color: white;
+}
+.remaining-data h1{
+    color:hsl(229, 7%, 55%);
+}
+.remaining-data span{
+    font-size: xx-large;
+    font-weight: bold;
+    color:hsl(229, 57%, 11%);
+}
+.triangle{
+    position: absolute;
+    right: 0;
+    border-left: 25px solid transparent;
+    border-top: 25px solid white;
+}
+
+
+
+/* --------- media queries --------- */
+@media(max-width: 1200px) {
+    main{
+        margin-left: 18%;
+    }
+}
+@media(max-width: 1000px) {
+    main{
+        flex-direction: column;
+        margin: auto;
+        margin-inline: auto;
+    }
+    .bg{
+        display: none;
+    }
+    .brother{
+        width: 300px;
+        margin: auto;
+    }
+    body{
+        margin: 14rem 18rem;
+    }
+    .trio{
+        width: 150px;
+    }
+    .triangle{
+        display: none;
+    }
+    .remaining-data{
+        top: 70px;
+        left: 60px;
+    }
+    .box1{
+        padding: 25px 80px 0px 35px;
+    }
+
+}
+@media(max-width: 850px){
+    body{
+        margin: 14rem 15rem;
+    }
+}
+@media(max-width: 755px){
+    body{
+        height: 80vh;
+        margin: 14rem 11rem;
+    }
+}
+@media(max-width: 680px){
+    body{
+        margin: 14rem 7rem;
+    }
+}
+@media(max-width: 565px){
+    body{
+        margin: 12rem 4rem;
+    }
+}
+@media(max-width: 470px){
+    body{
+        margin: 12rem 3rem;
+    }
+}
+
+

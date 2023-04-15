@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Fylo data storage component</title>
+
+
+  <style>
+    @media(max-width: 1000px){
+      body{
+        background-image: url("images/bg-mobile.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+      }
+    }
+    @media(max-width: 420px){
+    body{
+      background-size: 420px;  
+      margin: 10rem 2rem;
+    }
+}
+  </style>
+</head>
+<body>
+  <main>
+
+    <!-- box1 -->
+
+    <div class="box1 brother">
+      <!-- logo dic -->
+
+      <div class="logo">
+        <img src="images/logo.svg" alt="logo">
+      </div>
+
+      <!-- 3 type icon div -->
+
+      <div class="trio">
+        <div class="document iscon">
+          <img class="doc" src="images/icon-document.svg" alt="document-icon">
+        </div>
+        <div class="folder iscon">
+          <img class="fold" src="images/icon-folder.svg" alt="folder-icon">
+        </div>
+        <div class="upload iscon">
+          <img class="load" src="images/icon-upload.svg" alt="upload-icon">
+        </div>
+      </div>
+    </div>
+    
+    <!-- box2 -->
+
+    <div class="box2 brother">
+
+      <!-- commenting box  -->
+      <div class="remaining-data">
+        <h1> <span>185</span> GB Left</h1>
+        <div class="triangle"></div>
+      </div>
+
+      <!-- storage usage -->
+      <div class="material">
+        <div class="storage-usage">
+          <h1>  You’ve used <span>815 GB</span> of your storage</h1>
+        </div>
+      
+        <!-- the bar showing used and remains -->
+        <div class="barball-main">
+          <div class="bar">
+            <div class="bar-ball"></div>
+          </div>
+        </div>
+  
+  
+        <!-- start and end range -->
+        <div class="range-of-bar">
+          <div class="range1">
+            <span>0 GB</span>
+          </div>
+          <div class="range2">
+            <span>1000 GB</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+  <img src="images/bg-desktop.png" alt="" class="bg">
+</body>
+</html>
